@@ -10,14 +10,14 @@
   Webpack / Parcel
 
   Preview
-  https://<your-username>.github.io/layout_landing-page
+  https://github.com/ptrodion/layout_landing-page.git
 
   Figma
   https://www.figma.com/design/lSR1m42L9YwzQwzzxKwHpw/THE-MET?node-id=8590-176
 
 Інструкції для запуску:
   # 1. Клонувати репозиторій
-git clone https://github.com/<your-username>/layout_landing-page.git
+git clone https://github.com/ptrodion/layout_landing-page.git
 
 # 2. Перейти до директорії проєкту
 cd layout_landing-page

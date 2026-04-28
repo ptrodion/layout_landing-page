@@ -1,0 +1,36 @@
+@use '../utils/mixins.scss' as *;
+
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-position: center;
+
+  @include transition-base(transform);
+
+  @include on-tablet {
+    width: 32px;
+    height: 32px;
+  }
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &--phone {
+    background-image: url('/src/images/icons/icon-phone-call.png');
+  }
+
+  &--burger-menu {
+    background-image: url('/src/images/icons/icon-burger-menu.png');
+
+    &:hover {
+      background-image: url('/src/images/icons/icon-burger-menu-hover.png');
+    }
+  }
+
+  &--close {
+    background-image: url('/src/images/icons/icon-close.png');
+  }
+}

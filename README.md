@@ -9,6 +9,9 @@
   Responsive Design
   Webpack / Parcel
 
+  Demo
+  https://ptrodion.github.io/layout_landing-page/
+  
   Preview
   https://github.com/ptrodion/layout_landing-page.git
 

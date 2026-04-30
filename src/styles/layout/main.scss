@@ -4,13 +4,7 @@
 .main {
   min-height: 100vh;
   position: relative;
-  z-index: 1;
-
-  padding-bottom: $footer-height-mobile;
-
-  @include on-tablet {
-    padding-bottom: $footer-height-tablet;
-  }
+  z-index: 0;
 
   &__content {
     display: flex;

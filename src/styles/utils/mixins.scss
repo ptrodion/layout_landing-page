@@ -128,7 +128,7 @@
   }
 
   @include on-desktop {
-    background-size: contain;
+    background-size: cover;
     background-image: url($desktop);
   }
 }

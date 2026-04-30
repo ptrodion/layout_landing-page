@@ -2,11 +2,14 @@
 @use '../utils/mixins.scss' as *;
 
 .header {
+  position: relative;
+  z-index: 0;
+
   @include section-background(
     '/src/images/header/header-bg-mobile.png',
     '/src/images/header/header-bg-tablet.png',
     '/src/images/header/header-bg-desktop.png',
-    568px,
+    100vh,
     840px
   );
 
@@ -14,7 +17,6 @@
     @include content-padding-inline;
 
     padding-top: 25px;
-    height: 100vh;
 
     display: flex;
     flex-direction: column;

@@ -6,6 +6,12 @@
   position: relative;
   z-index: 0;
 
+  background-color: $color-white;
+  margin-bottom: $footer-height-mobile;
+  @include on-tablet {
+    margin-bottom: $footer-height-tablet;
+  }
+
   &__content {
     display: flex;
     flex-direction: column;
